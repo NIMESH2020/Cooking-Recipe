@@ -1,0 +1,361 @@
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Style for active link */
+.navigation a.active {
+    border-bottom: 2px solid #ffcc00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.dish-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.recipe-catalog {
+    text-align: center;
+}
+
+.recipe-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.recipe-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.individual-recipe {
+    text-align: center;
+}
+
+.recipe-details img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #ffcc00;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.contact-us h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffdb4d;
+}
+
+/* Cooking Instructions Section */
+.individual-recipe {
+    padding: 40px 0;
+}
+
+.recipe-details h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.recipe-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .recipe-details h3 {
+        font-size: 20px;
+    }
+
+    .recipe-details p {
+        font-size: 14px;
+    }
+}
+
+/* Ingredients Section */
+.individual-recipe {
+    padding: 40px 0;
+}
+
+.recipe-details h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.recipe-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-details li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.recipe-details ul ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.recipe-details ul ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .recipe-details h3 {
+        font-size: 20px;
+    }
+
+    .recipe-details li {
+        font-size: 14px;
+    }
+
+    .recipe-details ul ul li {
+        font-size: 12px;
+    }
+}
+
+/* Recipe Catalog Section */
+.recipe-catalog {
+    padding: 40px 0;
+}
+
+.recipe-catalog h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.recipe-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-item h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.recipe-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .recipe-item {
+        width: 100%;
+    }
+
+    .recipe-item img {
+        border-radius: 0;
+    }
+
+    .recipe-item h3 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .recipe-item p {
+        font-size: 12px;
+    }
+}
+
+/* Homepage Section */
+.homepage {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.homepage h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.homepage p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.dish-images img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
